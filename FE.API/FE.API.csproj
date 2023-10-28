@@ -7,15 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FastEndpoints" Version="5.18.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.13" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Endpoints\" />
-    <Folder Include="Responses\" />
-    <Folder Include="Requests\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\bkamaci\Desktop\Tranings\FastEndpoints\FastEndpointsTraining\FE.API\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\bkamaci\Desktop\Tranings\FastEndpoints\FastEndpointsTraining\FE.API\.editorconfig" />
   </ItemGroup>
 
 </Project>
