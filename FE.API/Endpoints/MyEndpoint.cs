@@ -16,7 +16,7 @@ public class MyEndpoint : Endpoint<MyRequest, MyResponse>
         await SendAsync(new MyResponse
         {
             FullName = $"{req.FirstName} {req.LastName}",
-            IsOver18 = req.Age >= 18
+            Age = req.Age
         });
     }
 }
